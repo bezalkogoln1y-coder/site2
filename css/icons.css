@@ -1,0 +1,9 @@
+.eco { background: url(../img/icon/eco.png) }
+.delivery { background: url(../img/icon/delivery.png) }
+.high { background: url(../img/icon/high.png) }
+.worker { background: url(../img/icon/worker.png) }
+.eco, .delivery, .high , .worker {background-size: contain; background-repeat: no-repeat; background-position: left center; padding: 30px 0px 10px 135px;}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .eco, .delivery, .high , .worker {background-size: contain; background-repeat: no-repeat; background-position: left center; padding: 15px 0px 0px 100px;}
+}
